@@ -63,7 +63,6 @@ function run(userCommand, userSel){
 						if(movieData.Title!==undefined){//Testing for title existence
 							/*console.log(movieData);*/
 							console.log('Title: '+movieData.Title+'\nReleased: '+movieData.Released+'\nIMDB Rating: '+movieData.imdbRating+'\nRotten Tomatoes: '+movieData.Ratings[1].value+'\nProduced in: '+movieData.Country+'\nMovie Language: '+movieData.Language+'\nPlot: '+movieData.Plot+'\nActors: '+movieData.Actors);
-						// console.log(JSONParse.Title+" was released on "+JSONParse.Released);//Providing title and release date
 					 	}
 						else{
 							console.log("No movie by that name was found");//Providing message about movie not found
